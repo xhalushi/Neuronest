@@ -1,0 +1,29 @@
+node_modules/
+.venv/
+dist/
+__pycache__/
+*.pyc
+
+# Local secrets and machine configuration
+.env
+.env.*
+!.env.example
+.codex/
+.agents/
+.vscode/
+.idea/
+*.log
+
+# Wearer-specific EEG recordings, calibration exports and local captures
+*face-results*.json
+*calibration*.json
+recordings/
+captures/
+*.edf
+*.bdf
+*.xdf
+
+# Generated output and operating-system files
+*.tsbuildinfo
+.DS_Store
+Thumbs.db

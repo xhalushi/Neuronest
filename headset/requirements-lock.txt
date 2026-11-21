@@ -1,0 +1,3 @@
+gtec-unicorn==2.0.0
+numpy==2.5.5
+scipy==1.18.1
